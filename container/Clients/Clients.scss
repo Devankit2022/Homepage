@@ -4,6 +4,10 @@
 	align-items: center;
 
 	height: 500px;
+
+	@media only screen and (max-width: 425px) {
+		height: 700px;
+	}
 }
 
 .client_rectangle1 {
@@ -41,6 +45,10 @@
 
 	position: absolute;
 	transform: translate(-660px, 10px);
+
+	@media only screen and (max-width: 425px) {
+		display: none;
+	}
 }
 
 .client_frame--container {
@@ -49,6 +57,10 @@
 	align-items: center;
 
 	margin: 20px;
+
+	@media only screen and (max-width: 425px) {
+		flex-direction: column;
+	}
 }
 
 .client_frame--frame {
@@ -84,4 +96,8 @@
 
 	position: absolute;
 	transform: translate(580px, 400px);
+
+	@media only screen and (max-width: 425px) {
+		display: none;
+	}
 }

@@ -16,6 +16,10 @@
 
 		margin: 20px 0px 0px 110px;
 	}
+
+	@media only screen and (max-width: 425px) {
+		height: 1000px;
+	}
 }
 
 .service_frame {
@@ -28,18 +32,36 @@
 	flex-direction: row;
 	align-items: center;
 	position: absolute;
+
+	@media only screen and (max-width: 425px) {
+		position: static;
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 .service_frame1 {
 	transform: translate(110px, -10px);
+
+	@media only screen and (max-width: 425px) {
+		transform: translate(0px, 0px);
+	}
 }
 
 .service_frame2 {
 	transform: translate(253px, 117px);
+
+	@media only screen and (max-width: 425px) {
+		transform: translate(0px, 0px);
+	}
 }
 
 .service_frame3 {
 	transform: translate(167px, 243px);
+
+	@media only screen and (max-width: 425px) {
+		transform: translate(0px, 0px);
+	}
 }
 
 .service_frame--frame {
@@ -84,6 +106,10 @@
 
 .marketing_frame {
 	width: 387px;
+
+	@media only screen and (max-width: 425px) {
+		width: 300px;
+	}
 }
 
 .marketing_logo {
@@ -92,6 +118,10 @@
 
 .paid_frame {
 	width: 386px;
+
+	@media only screen and (max-width: 425px) {
+		width: 300px;
+	}
 }
 
 .paid_logo {
@@ -100,6 +130,10 @@
 
 .content_frame {
 	width: 335px;
+
+	@media only screen and (max-width: 425px) {
+		width: 300px;
+	}
 }
 
 .content_logo {
@@ -108,6 +142,10 @@
 
 .worldwide_frame {
 	width: 590px;
+
+	@media only screen and (max-width: 425px) {
+		width: 350px;
+	}
 }
 
 .worldwide_logo {
@@ -116,6 +154,10 @@
 
 .lead_frame {
 	width: 438px;
+
+	@media only screen and (max-width: 425px) {
+		width: 350px;
+	}
 }
 
 .lead_logo {
@@ -124,6 +166,10 @@
 
 .programmatic_frame {
 	width: 387px;
+
+	@media only screen and (max-width: 425px) {
+		width: 300px;
+	}
 }
 
 .programmatic_logo {
@@ -132,6 +178,10 @@
 
 .bot_frame {
 	width: 285px;
+
+	@media only screen and (max-width: 425px) {
+		width: 300px;
+	}
 }
 
 .bot_logo {

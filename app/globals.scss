@@ -3,4 +3,11 @@ body {
 	height: 6080px;
 
 	background: var(--Rich-Blacks-Main, #011320);
+
+	@media only screen and (max-width: 425px) {
+		max-width: 390px;
+		height: 10000px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
 }

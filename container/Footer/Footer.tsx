@@ -1,4 +1,3 @@
-import { Logo } from "@/components"
 import "./Footer.scss"
 
 const Footer = () => {

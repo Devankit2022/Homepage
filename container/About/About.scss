@@ -4,6 +4,10 @@
 	align-items: center;
 
 	height: 1300px;
+
+	@media only screen and (max-width: 425px) {
+		height: 2800px;
+	}
 }
 
 .about_rectangle1 {
@@ -41,6 +45,12 @@
 	font-weight: 600;
 	line-height: 44px;
 	word-spacing: 10px;
+
+	@media only screen and (max-width: 425px) {
+		width: 350px;
+		text-align: center;
+		margin: 30px 0px;
+	}
 }
 
 .about_p2 {
@@ -52,6 +62,12 @@
 	font-weight: 400;
 	line-height: 32px;
 	margin: 0;
+
+	@media only screen and (max-width: 425px) {
+		width: 350px;
+		text-align: center;
+		margin: 30px 0px;
+	}
 }
 
 .about_container {
@@ -67,6 +83,11 @@
 	flex-shrink: 0;
 
 	position: absolute;
+
+	@media only screen and (max-width: 425px) {
+		position: static;
+		margin: 20px 0px;
+	}
 }
 
 .about_image {
@@ -112,6 +133,10 @@
 	height: 399px;
 
 	transform: translate(-450px, 550px);
+
+	@media only screen and (max-width: 425px) {
+		transform: translate(0px, 0px);
+	}
 }
 
 .about2 {
@@ -119,6 +144,10 @@
 	height: 399px;
 
 	transform: translate(-126px, 325px);
+
+	@media only screen and (max-width: 425px) {
+		transform: translate(0px, 0px);
+	}
 }
 
 .about3 {
@@ -126,6 +155,10 @@
 	height: 530px;
 
 	transform: translate(200px, 535px);
+
+	@media only screen and (max-width: 425px) {
+		transform: translate(0px, 0px);
+	}
 }
 
 .about4 {
@@ -133,6 +166,10 @@
 	height: 399px;
 
 	transform: translate(-126px, 763px);
+
+	@media only screen and (max-width: 425px) {
+		transform: translate(0px, 0px);
+	}
 }
 
 .about5 {
@@ -140,6 +177,10 @@
 	height: 399px;
 
 	transform: translate(522px, 350px);
+
+	@media only screen and (max-width: 425px) {
+		transform: translate(0px, 0px);
+	}
 }
 
 .about_line1 {
@@ -150,6 +191,10 @@
 
 	position: absolute;
 	transform: translate(-504px, 173px);
+
+	@media only screen and (max-width: 425px) {
+		display: none;
+	}
 }
 
 .about_line2 {
@@ -160,6 +205,10 @@
 
 	position: absolute;
 	transform: translate(580px, -48px);
+
+	@media only screen and (max-width: 425px) {
+		display: none;
+	}
 }
 
 .about_line3 {
@@ -170,4 +219,8 @@
 
 	position: absolute;
 	transform: translate(20px, 1210px);
+
+	@media only screen and (max-width: 425px) {
+		display: none;
+	}
 }

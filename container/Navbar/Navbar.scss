@@ -59,6 +59,10 @@
 			cursor: pointer;
 		}
 	}
+
+	@media only screen and (max-width: 425px) {
+		display: none;
+	}
 }
 
 .nav_rectangle {
@@ -68,6 +72,10 @@
 	border-radius: 20px;
 	background: var(--Azure-Main, #2f80ed);
 	filter: blur(200px);
+
+	@media only screen and (max-width: 425px) {
+		display: none;
+	}
 }
 
 .nav-rectangle__left {

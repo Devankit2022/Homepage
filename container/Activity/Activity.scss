@@ -4,6 +4,11 @@
 	align-items: center;
 
 	height: 500px;
+
+	@media only screen and (max-width: 425px) {
+		height: 1000px;
+		justify-content: space-evenly;
+	}
 }
 
 .activity_rectangle1 {
@@ -42,6 +47,11 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+
+	@media only screen and (max-width: 425px) {
+		flex-direction: column;
+		height: 835px;
+	}
 }
 
 .activity_rectangle2--rectangle {
@@ -58,6 +68,10 @@
 	align-items: center;
 
 	margin: 0px 15px;
+
+	@media only screen and (max-width: 425px) {
+		margin: 10px 0px;
+	}
 
 	p {
 		color: #fff;
