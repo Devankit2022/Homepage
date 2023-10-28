@@ -1,0 +1,122 @@
+.together {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	height: 580px;
+}
+
+.together_rectangle1 {
+	width: 280px;
+	height: 47px;
+	flex-shrink: 0;
+
+	border-radius: 20px;
+	border: 1px solid rgba(47, 128, 237, 0.2);
+	opacity: 1;
+	background: linear-gradient(
+		94deg,
+		rgba(47, 128, 237, 0.1) 13.78%,
+		rgba(250, 13, 255, 0.1) 97.57%
+	);
+
+	color: var(--Whites-01, #fefefe);
+	font-family: IBM Plex Mono;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.together_frame {
+	width: 1200px;
+	height: 351px;
+	flex-shrink: 0;
+	border-radius: 64px;
+	opacity: 0.8;
+	background: linear-gradient(
+		178deg,
+		rgba(161, 91, 207, 0.01) 28.12%,
+		rgba(90, 114, 226, 0.62) 65.26%,
+		#2f80ed 85.9%,
+		#39d0ff 104.9%
+	);
+
+	margin: 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	h3 {
+		width: 770px;
+
+		color: #fff;
+		text-align: center;
+		font-family: IBM Plex Mono;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 44px;
+
+		word-spacing: 10px;
+		text-align: center;
+		opacity: 1;
+	}
+
+	p {
+		width: 600px;
+
+		color: #fff;
+		text-align: center;
+		font-family: IBM Plex Mono;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 32px;
+
+		word-spacing: 5px;
+		text-align: center;
+	}
+
+	button {
+		display: flex;
+		padding: 12px 24px;
+		justify-content: center;
+		align-items: center;
+		gap: 12px;
+
+		border-radius: 10px;
+		background: linear-gradient(
+			90deg,
+			#2f80ed -13.59%,
+			rgba(47, 128, 237, 0.76) 118.36%
+		);
+		box-shadow: 0px 8px 20px 0px rgba(47, 128, 237, 0.3);
+
+		color: var(--Whites-01, #fefefe);
+		font-family: IBM Plex Mono;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 24px;
+	}
+
+	button:hover {
+		cursor: pointer;
+	}
+}
+
+.together_line {
+	width: 1440px;
+	height: 1px;
+	opacity: 0.5;
+	background: rgba(255, 255, 255, 0.2);
+
+	position: absolute;
+	transform: translate(28px, 500px);
+}

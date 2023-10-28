@@ -1,0 +1,81 @@
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 1300px;
+	margin: auto;
+}
+
+.nav-div {
+	ul {
+		list-style: none;
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 48px;
+
+		li {
+			text-decoration: none;
+			color: var(--Whites-01, #fefefe);
+
+			font-family: IBM Plex Mono;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 20px;
+
+			button {
+				display: flex;
+				padding: 12px 24px;
+				justify-content: center;
+				align-items: center;
+				gap: 12px;
+
+				border-radius: 10px;
+				background: linear-gradient(
+					90deg,
+					#2f80ed -13.59%,
+					rgba(47, 128, 237, 0.76) 118.36%
+				);
+				box-shadow: 0px 8px 20px 0px rgba(47, 128, 237, 0.3);
+
+				color: var(--Whites-01, #fefefe);
+				font-family: IBM Plex Mono;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 600;
+				line-height: 24px;
+			}
+
+			button:hover {
+				cursor: pointer;
+			}
+		}
+
+		li:hover {
+			cursor: pointer;
+		}
+	}
+}
+
+.nav_rectangle {
+	width: 202px;
+	height: 197px;
+	flex-shrink: 0;
+	border-radius: 20px;
+	background: var(--Azure-Main, #2f80ed);
+	filter: blur(200px);
+}
+
+.nav-rectangle__left {
+	position: absolute;
+	transform: translate(1000px, -91px);
+}
+
+.nav-rectangle__right {
+	position: absolute;
+	transform: translate(1309px, -100px);
+}

@@ -1,0 +1,43 @@
+.logo {
+	display: flex;
+	flex-direction: column;
+
+	div {
+		height: 40px;
+	}
+}
+
+.logo_svg {
+	width: 23.091px;
+	height: 29.639px;
+	flex-shrink: 0;
+
+	fill: var(--Whites-01, #fefefe);
+}
+
+.logo_span {
+	color: var(--Whites-01, #fefefe);
+	font-family: Poppins;
+	font-size: 41.164px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 45.689px;
+
+	svg {
+		position: absolute;
+		transform: translate(-18px, 13px);
+	}
+}
+
+.logo_span--1 {
+	color: var(--Whites-01, #fefefe);
+	font-family: IBM Plex Mono;
+	font-size: 13.272px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+
+	display: block;
+	width: 70px;
+	text-align: center;
+}

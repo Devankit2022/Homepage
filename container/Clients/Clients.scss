@@ -1,0 +1,87 @@
+.client {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	height: 500px;
+}
+
+.client_rectangle1 {
+	width: 325px;
+	height: 47px;
+	flex-shrink: 0;
+	border-radius: 20px;
+	border: 1px solid rgba(47, 128, 237, 0.2);
+	opacity: 1;
+	background: linear-gradient(
+		94deg,
+		rgba(47, 128, 237, 0.1) 13.78%,
+		rgba(250, 13, 255, 0.1) 97.57%
+	);
+
+	color: var(--Whites-01, #fefefe);
+	font-family: IBM Plex Mono;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.client_rectangle2 {
+	width: 202px;
+	height: 197px;
+	flex-shrink: 0;
+	border-radius: 20px;
+	background: var(--Steel-Pink-03, #d984db);
+	filter: blur(200px);
+
+	position: absolute;
+	transform: translate(-660px, 10px);
+}
+
+.client_frame--container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	margin: 20px;
+}
+
+.client_frame--frame {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 200px;
+
+	margin: 20px;
+
+	p {
+		color: #fff;
+		text-align: center;
+		font-family: Roboto;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 44px;
+		margin: 0px;
+	}
+}
+
+.client_frame--frame:hover {
+	cursor: pointer;
+}
+
+.client_line {
+	width: 1px;
+	height: 34px;
+	opacity: 0.5;
+	background: linear-gradient(0deg, #fff 16.85%, rgba(176, 47, 237, 0.43) 97.21%);
+
+	position: absolute;
+	transform: translate(580px, 400px);
+}

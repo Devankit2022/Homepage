@@ -1,0 +1,139 @@
+.service {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
+
+	height: 600px;
+
+	h3 {
+		color: var(--Whites-01, #fefefe);
+		font-family: IBM Plex Mono;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 32px;
+
+		margin: 20px 0px 0px 110px;
+	}
+}
+
+.service_frame {
+	display: flex;
+	flex-direction: column;
+}
+
+.service_frame--inner {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: absolute;
+}
+
+.service_frame1 {
+	transform: translate(110px, -10px);
+}
+
+.service_frame2 {
+	transform: translate(253px, 117px);
+}
+
+.service_frame3 {
+	transform: translate(167px, 243px);
+}
+
+.service_frame--frame {
+	height: 100px;
+	flex-shrink: 0;
+	border-radius: 20px;
+	border: 1px solid rgba(47, 128, 237, 0.2);
+	background: linear-gradient(
+		94deg,
+		rgba(47, 128, 237, 0.1) 13.78%,
+		rgba(250, 13, 255, 0.1) 97.57%
+	);
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+
+	p {
+		color: var(--Whites-01, #fefefe);
+		font-family: IBM Plex Mono;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 32px;
+		word-spacing: 5px;
+	}
+
+	margin: 10px;
+}
+
+.service_logo {
+	width: 56px;
+	height: 56px;
+	flex-shrink: 0;
+	border-radius: 15px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.marketing_frame {
+	width: 387px;
+}
+
+.marketing_logo {
+	background: var(--Azure-Main, #2f80ed);
+}
+
+.paid_frame {
+	width: 386px;
+}
+
+.paid_logo {
+	background: var(--Grape-Purple-05, #8932c3);
+}
+
+.content_frame {
+	width: 335px;
+}
+
+.content_logo {
+	background: var(--Emerald-Green-Main, #35ce8d);
+}
+
+.worldwide_frame {
+	width: 590px;
+}
+
+.worldwide_logo {
+	background: var(--Imperial-Red-Main, #fb3640);
+}
+
+.lead_frame {
+	width: 438px;
+}
+
+.lead_logo {
+	background: var(--Steel-Pink-Main, #b409b7);
+}
+
+.programmatic_frame {
+	width: 387px;
+}
+
+.programmatic_logo {
+	background: var(--Rose-Pink-Main, #f72585);
+}
+
+.bot_frame {
+	width: 285px;
+}
+
+.bot_logo {
+	background: var(--Grape-Purple-05, #8932c3);
+}
