@@ -5,6 +5,10 @@
 	align-items: center;
 	width: 1300px;
 	margin: auto;
+
+	@media only screen and (max-width: 425px) {
+		display: none;
+	}
 }
 
 .nav-div {
@@ -59,10 +63,6 @@
 			cursor: pointer;
 		}
 	}
-
-	@media only screen and (max-width: 425px) {
-		display: none;
-	}
 }
 
 .nav_rectangle {
@@ -86,4 +86,20 @@
 .nav-rectangle__right {
 	position: absolute;
 	transform: translate(1309px, -100px);
+}
+
+.nav2 {
+	@media only screen and (max-width: 425px) {
+		max-width: 390px;
+		overflow: hidden;
+	}
+
+	@media only screen and (min-width: 425px) {
+		display: none;
+	}
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 }

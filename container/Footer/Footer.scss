@@ -19,6 +19,11 @@
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 22px;
+
+	@media only screen and (max-width: 425px) {
+		align-items: center;
+		gap: 10px;
+	}
 }
 
 .footer_frame--p {
@@ -26,6 +31,11 @@
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 22px;
+
+	@media only screen and (max-width: 425px) {
+		align-items: center;
+		gap: 10px;
+	}
 }
 
 .footer_h3 {
@@ -51,6 +61,10 @@
 	align-items: center;
 	justify-content: space-between;
 	gap: 61px;
+
+	@media only screen and (max-width: 425px) {
+		gap: 40px;
+	}
 }
 
 .footer_frame--logo {
@@ -134,4 +148,17 @@
 	@media only screen and (max-width: 425px) {
 		display: none;
 	}
+}
+
+.footer2 {
+	@media only screen and (min-width: 425px) {
+		display: none;
+	}
+
+	max-width: 390px;
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }

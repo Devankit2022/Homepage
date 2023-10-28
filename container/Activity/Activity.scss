@@ -8,6 +8,8 @@
 	@media only screen and (max-width: 425px) {
 		height: 1000px;
 		justify-content: space-evenly;
+		max-width: 390px;
+		overflow: hidden;
 	}
 }
 
