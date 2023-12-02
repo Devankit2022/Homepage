@@ -1,4 +1,4 @@
-# User Module
+# HomePage
 
 #### [Live-URL](https://homepage-devankit.vercel.app/)
 
